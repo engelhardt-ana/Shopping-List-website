@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style1.css">
+    <title> Shopping list</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <h2>Shopping List</h2>
+            <form id="grocery">
+                <label>New Item</label>
+                <input id="newItem" type="text" placeholder=" New item" required>
+                <!-- Use a submit button to allow Enter key to submit -->
+                <button type="submit" id="additem"> Add item </button>
+            </form>
+
+        </div>
+
+        <div id="active-list">
+            <h2>Active List</h2>
+            <ul id="activeList">
+            </ul>
+        </div>
+
+        <div id="list">
+            <h2>Common Items</h2>
+            <ul id="commonItems">
+            </ul>
+        </div>
+
+
+
+    </div>
+
+    <div class="log">
+        <h2>Log</h2>
+        <div id="logList"></div>
+    </div>
+
+    <script src="shopping-list.js"></script>
+
+</body>
+
+</html>
